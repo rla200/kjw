@@ -27,40 +27,58 @@
         <div class="inner_header">
             <h1 class="logo"><a href="#"><img src="figma_img/1_logo/h1_logo.svg" alt=""></a></h1>
             <ul class="gnb">
-                <li><a href="#">데일리</a></li>
-                <li><a href="#">클라우드</a></li>
-                <li><a href="#">인기도서</a></li>
-                <li><a href="#">맞춤동영상</a></li>
-                <li><a href="#">캘린더</a></li>
+                <li><a href="index.html#delay">데일리</a></li>
+                <li><a href="index.html#Cloud">클라우드</a></li>
+                <li><a href="index.html#Popular_books">인기도서</a></li>
+                <li><a href="index.html#Custom_videos">맞춤동영상</a></li>
+                <li><a href="index.html#Calendar">캘린더</a></li>
             </ul>
         </div>
     </div>
-    <!-- bunner wiper -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="figma_img/2_main/main_slide_1/main_slide_1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="figma_img/2_main/main_slide_1/main_slide_2.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="figma_img/2_main/main_slide_1/main_slide_3.jpg" alt=""></div>
+
+    <div class="main_banner">
+        <!-- bunner wiper -->
+        <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="figma_img/2_main/main_slide_1/main_slide_1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="figma_img/2_main/main_slide_1/main_slide_2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="figma_img/2_main/main_slide_1/main_slide_3.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
     </div>
-
     <div id="main1">
-        <div></div>
+        <div class="main1_wrap">
+            <div class="main_banner1">
+                <!-- Swiper -->
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="figma_img/2_main/main_slide_2/main_sun_slide_1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="figma_img/2_main/main_slide_2/main_sun_slide_2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="figma_img/2_main/main_slide_2/main_sun_slide_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
 
-        <ul class="list">
-            <li><a href="#">데일리</a>
-                <p>목록</p>
-            </li>
-            <li><a href="#">클라우드</a></li>
-            <li><a href="#">인기도서</a></li>
-            <li><a href="#">맞춤 동영상</a></li>
-            <li><a href="#">캘린더</a></li>
-        </ul>
+            <ul class="list">
+                <li><a href="index.html#delay">데일리</a>
+                    <p>목록</p>
+                </li>
+                <li><a href="index.html#Cloud">클라우드</a></li>
+                <li><a href="index.html#Popular_books">인기도서</a></li>
+                <li><a href="index.html#Custom_videos">맞춤 동영상</a></li>
+                <li><a href="index.html#Calendar">캘린더</a></li>
+            </ul>
+        </div>
     </div>
-
     <div class="main1_bottom">
         <ul class="main1_bottom_wrap">
             <li>
@@ -85,26 +103,38 @@
             <div class="language">
                 <ul class="inner_language">
                     <li>
+                        
                         <div class="language_txet">
-                        <p>영어</p>
-                        <p>DAY</p>
+                            <p>영어</p>
+                            <p>DAY</p>
                         </div>
                         <div class="inner_language_ho">
-                           <p>수학</p>
-                        <p>DAYAI</p>
+                            <p>수학</p>
+                            <p>DAYAI</p>
                         </div>
                     </li>
-                        
+
                     <li>
-                        <p>중국어</p>
-                        <p>DAY</p>
+                        <div class="language_txet">
+                            <p>중국어</p>
+                            <p>DAY</p>
+                        </div>
+                        <div class="inner_language_ho">
+                            <p>국어</p>
+                            <p>DAYAI</p>
+                        </div>
                     </li>
                     <li>
-                        <p>일본어</p>
-                        <p>DAY</p>
+                        <div class="language_txet">
+                            <p>일본어</p>
+                            <p>DAY</p>
+                        </div>
+                        <div class="inner_language_ho">
+                            <p>한문</p>
+                            <p>DAYAI</p>
+                        </div>
                     </li>
                 </ul>
-                
 
                 <div class="delay_vidos">
                     <div class="delay_vidos_vido">
@@ -119,8 +149,11 @@
         <div class="daily_books">
             <h3>인기도서</h3>
             <ul class="daily_books_img">
-                <li><img src="figma_img/3_Daily_books/Popular_books_img1.jpg" alt="">
+                <li>
+                    <div class="daily_books_img_wrap">
+                    <img src="figma_img/3_Daily_books/Popular_books_img1.jpg" alt="">
                     <p>BOOSTER <br> 유형독해 (개정)</p>
+                    </div>
                 </li>
                 <li><img src="figma_img/3_Daily_books/Popular_books_img2.jpg" alt="">
                     <p>부스터 보카 어원</p>
@@ -134,7 +167,7 @@
             <div class="daily_pop_img">
                 <img src="figma_img/3_Daily_books/books_Banner.jpg" alt="">
             </div>
-                <div class="daily_pop_vido">
+            <div class="daily_pop_vido">
                 <img src="figma_img/3_Daily_books/books_video.png" alt="">
             </div>
         </div>
@@ -143,36 +176,62 @@
     <div id="Cloud">
         <div class="inner_Cloud">
             <h2>클라우드</h2>
-            <p class="Cloud_text">재미있고 유익한 공부 설계를 쉽고 간편하게!
-                <br>공부 준비가 한결 가벼워집니다.
-            </p>
+            <div class="Cloud_text">
+                <div class="parallax__item__desc">
+                    <div class="typing-container">
+                        <p class="typing-text"></p>
+                        <p class="typing-text1"></p>
+                    </div>
+                </div>
+            </div>
             <ul class="shool">
                 <li>
-                    <p>초등</p><img src="figma_img/4_cloud/1_Cloud_Elementary_school.svg" alt="">
+                    <div class="shool_after">
+                        <p>초등</p><img src="figma_img/4_cloud/1_Cloud_Elementary_school.svg" alt="">
+                    </div>
+                    <div class="shool_before">
+                        <img src="figma_img/4_cloud/1_Cloud_Elementary_school.svg" alt="">
+                    </div>
                 </li>
                 <li>
-                    <p>중등</p><img src="figma_img/4_cloud/2_Cloud_middle_school.svg" alt="">
+                    <div class="shool_after">
+                        <p>중등</p><img src="figma_img/4_cloud/2_Cloud_middle_school.svg" alt="">
+                    </div>
+                    <div class="shool_before">
+                        <img src="figma_img/4_cloud/2_Cloud_middle_school.svg" alt="">
+                    </div>
                 </li>
                 <li>
-                    <p>고등</p><img src="figma_img/4_cloud/3_Cloud_high_school.svg" alt="">
+                    <div class="shool_after">
+                        <p>고등</p><img src="figma_img/4_cloud/3_Cloud_high_school.svg" alt="">
+                    </div>
+                    <div class="shool_before">
+                        <img src="figma_img/4_cloud/3_Cloud_high_school.svg" alt="">
+                    </div>
                 </li>
             </ul>
             <ul class="ster">
                 <li>
                     <div class="ster_text">
                         <strong>공부관리</strong>
-                        <p>클라우드의 맞춤형
-                            <br>공부플랫폼
-                        </p>
+                        <div class="parallax__item__desc">
+                            <div class="typing-container">
+                                <p class="typing-text2"></p>
+                                <p class="typing-text3"></p>
+                            </div>
+                        </div>
                     </div>
                     <img src="figma_img/4_cloud/4_Cloud_officer.svg" alt="">
                 </li>
                 <li>
                     <div class="ster_text">
                         <strong>FIRST STEP</strong>
-                        <p>AI디지털 학습지와
-                            <br>함께합니다
-                        </p>
+                        <div class="parallax__item__desc">
+                            <div class="typing-container">
+                                <p class="typing-text4"></p>
+                                <p class="typing-text5"></p>
+                            </div>
+                        </div>
                     </div>
                     <img src="figma_img/4_cloud/5_Cloud_Worksheets.svg" alt="">
                 </li>
@@ -188,107 +247,95 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="Popular_books">
-                      <h2>인기도서</h2>
-                      <div class="Popular_books_wrap">
-            <div class="inner_books_menu_wrap">
-   
-                <div class="inner_books_menu">
+    <div id="Popular_books">
+        <div class="Popular_books_wrap">
+            <h2>인기도서</h2>
+            <div class="section">
+                <div class="link">
                     <strong>베스트</strong>
-                    <ul class="books_menu">
-                        <li>
-                            <a href="#">
-                                <p>초등</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <p>중등</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <p>고등</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <p>교과서</p>
-                            </a>
-                        </li>
+                    <ul>
+                        <li><a href="javascript:return false;" id="button1">초등</a></li>
+                        <li><a href="javascript:return false;" id="button2">중등</a></li>
+                        <li><a href="javascript:return false;" id="button3">고등</a></li>
+                        <li><a href="javascript:return false;" id="button4">교과서</a></li>
                     </ul>
-                </div>
-                <div class="inner_books_menu">
                     <strong class="e-book">E-BOOK</strong>
-                    <ul class="books_menu">
-                        <li>
-                            <a href="#">
-                                <p>어휘출제마법사</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <p>문법 예문 뱅크</p>
-                            </a>
-                        </li>
+                    <ul>
+                        <li><a href="javascript:return false;" id="button1">어휘출체마법사</a></li>
+                        <li><a href="javascript:return false;" id="button2">문법 예문 뱅크</a></li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="Popular_books_img_wrap">
-                <ul class="Popular_books_img">
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_1.jpg" alt="">
-                        <p>dark
-                            <br>psyhology
+                <div class="img_wrap">
+                    <div class="img_slide">
+                        <p class="img1 img">
+                            <img src="figma_img/5_Popular_books/books_1.jpg" alt="">
+                            <span class="img_text1">dark
+                                <br>psychology</span>
+                            <img src="figma_img/5_Popular_books/books_2.jpg" alt="">
+                            <span class="img_text2">혼모노</span>
+                            <img src="figma_img/5_Popular_books/books_3.jpg" alt="">
+                            <span class="img_text3">읽는 기도</span>
+                            <img src="figma_img/5_Popular_books/books_4.jpg" alt="">
+                            <span class="img_text4">해커스 토익
+                                <br>기출 voca(보카)</span>
+                            <img src="figma_img/5_Popular_books/books_5.jpg" alt="">
+                            <span class="img_text5">모순</span>
+                            <img src="figma_img/5_Popular_books/books_6.jpg" alt="">
+                            <span class="img_text6">가공범</span>
+                            <img src="figma_img/5_Popular_books/books_7.jpg" alt="">
+                            <span class="img_text7">료의 생각없는 생각</span>
+                            <img src="figma_img/5_Popular_books/books_8.jpg" alt="">
+                            <span class="img_text8">안녕이라 그랬어</span>
+                            <img src="figma_img/5_Popular_books/books_9.jpg" alt="">
+                            <span class="img_text9">류수영의 평생 레시피</span>
+                            <img src="figma_img/5_Popular_books/books_10.jpg" alt="">
+                            <span class="img_text10">궤도</span>
                         </p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_2.jpg" alt="">
-                        <p>혼모노</p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_3.jpg" alt="">
-                        <p>읽는 기도</p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_4.jpg" alt="">
-                        <p>해커스 토익
-                            <br>기출 voca(보카)
+                        <p class="img2 img">
+                            <img src="figma_img/5_Popular_books/books_6.jpg" alt="">
+                            <span class="img1_text6">가공범</span>
+                            <img src="figma_img/5_Popular_books/books_7.jpg" alt="">
+                            <span class="img1_text7">료의 생각없는 생각</span>
+                            <img src="figma_img/5_Popular_books/books_8.jpg" alt="">
+                            <span class="img1_text8">안녕이라 그랬어</span>
+                            <img src="figma_img/5_Popular_books/books_9.jpg" alt="">
+                            <span class="img1_text9">류수영의 평생 레시피</span>
+                            <img src="figma_img/5_Popular_books/books_10.jpg" alt="">
+                            <span class="img1_text10">궤도</span>
                         </p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_5.jpg" alt="">
-                        <p>모순</p>
-                    </li>
-                </ul>
-                <ul class="Popular_books_img">
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_6.jpg" alt="">
-                        <p>가공범</p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_7.jpg" alt="">
-                        <p>안녕이라 그랬어</p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_8.jpg" alt="">
-                        <p>읽는 기도</p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_9.jpg" alt="">
-                        <p>류수영의 평생 레시피</p>
-                    </li>
-                    <li>
-                        <img src="figma_img/5_Popular_books/books_10.jpg" alt="">
-                        <p>궤도</p>
-                    </li>
-                </ul>
-            </div>
+                        <p class="img3 img">
+                            <img src="figma_img/5_Popular_books/books_1.jpg" alt="">
+                            <span class="img_text1">dark
+                                <br>psychology</span>
+                            <img src="figma_img/5_Popular_books/books_3.jpg" alt="">
+                            <span class="img_text3">읽는 기도</span>
+                            <img src="figma_img/5_Popular_books/books_5.jpg" alt="">
+                            <span class="img_text5">모순</span>
+                            <img src="figma_img/5_Popular_books/books_7.jpg" alt="">
+                            <span class="img1_text7">료의 생각없는 생각</span>
+                            <img src="figma_img/5_Popular_books/books_9.jpg" alt="">
+                            <span class="img1_text9">류수영의 평생 레시피</span>
+                        </p>
+                        <p class="img4 img">
+                            <img src="figma_img/5_Popular_books/books_2.jpg" alt="">
+                            <span class="img_text2">혼모노</span>
+                            <img src="figma_img/5_Popular_books/books_4.jpg" alt="">
+                            <span class="img_text4">해커스 토익
+                                <br>기출 voca(보카)</span>
+                            <img src="figma_img/5_Popular_books/books_6.jpg" alt="">
+                            <span class="img1_text6">가공범</span>
+                            <img src="figma_img/5_Popular_books/books_8.jpg" alt="">
+                            <span class="img1_text8">안녕이라 그랬어</span>
+                            <img src="figma_img/5_Popular_books/books_10.jpg" alt="">
+                            <span class="img1_text10">궤도</span>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-
+    </div>
 
     <div id="Custom_videos">
         <h2>맞춤 동영상</h2>
@@ -358,20 +405,21 @@
             <h2>캘린더</h2>
             <p>유익한 자료와 체계적인 스케쥴</p>
             <div class="inner_Calendar_wrap">
-                <ul class="Calendar_list">
-                    <li>시간표</li>
-                    <li>온라인 학습</li>
-                    <li>온라인 복습</li>
-                    <li>보충 자료</li>
-                    <li>학습 리포터</li>
-                </ul>
-                <div class="Calendar_img">
-                <div class="parallax__item__desc reveal">
-                    <img src="figma_img/7_calender/calender_img.svg" alt="">
+                    <ul class="Calendar_list">
+                        <li>시간표</li>
+                        <li>온라인 학습</li>
+                        <li>온라인 복습</li>
+                        <li>보충 자료</li>
+                        <li>학습 리포터</li>
+                    </ul>
                 </div>
+                <div class="Calendar_img">
+                    <div class="parallax__item__desc reveal">
+                        <img src="figma_img/7_calender/calender_img.svg" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
+
     </div>
 
     <div id="footer">
@@ -404,13 +452,14 @@
     </div>
 
 
-
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/script.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper1", {
             slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
@@ -428,12 +477,31 @@
             },
         });
     </script>
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+        });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+
     <script>
         const hide = (item) => {
-            gsap.set(item, {autoAlpha: 0});
+            gsap.set(item, { autoAlpha: 0 });
         }
 
         const animate = (item) => {
@@ -441,23 +509,23 @@
             let y = 0;
             let delay = item.dataset.delay;
 
-            if(item.classList.contains("reveal_LTR")){
-                x = -100,
-                y = 0
-            } else if(item.classList.contains("reveal_BTT")){
+            if (item.classList.contains("reveal_LTR")) {
+                x = -0,
+                    y = 0
+            } else if (item.classList.contains("reveal_BTT")) {
                 x = 0,
-                y = 100
-            } else if(item.classList.contains("reveal_TTB")){
+                    y = -100
+            } else if (item.classList.contains("reveal_TTB")) {
                 x = 0,
-                y = -100
+                    y = -100
             } else {
-                x = 100,
-                y = 0;
+                x = -100,
+                    y = 0;
             }
 
-            gsap.fromTo(item, 
-                {autoAlpha: 0, x: x, y: y}, 
-                {autoAlpha: 1, x: 0, y: 0, delay: delay, duration: 2, overwrite: "auto", ease: "expo"}
+            gsap.fromTo(item,
+                { autoAlpha: 0, x: x, y: y },
+                { autoAlpha: 1, x: 0, y: 0, delay: delay, duration: 6, overwrite: "auto", ease: "expo" }
             );
         };
 
@@ -469,10 +537,164 @@
                 start: "top bottom",
                 end: "bottom top",
                 markers: false,
-                onEnter: () => {animate(item)}
+                onEnter: () => { animate(item) }
             });
         });
-    </script>   
+    </script>
+
+
+    <script>
+
+        if (item.classList.contains(".Calendar_img")) {
+            x = -100,
+                y = 0
+        } else if (item.classList.contains("reveal_BTT")) {
+            x = 0,
+                y = 100
+        } else if (item.classList.contains("reveal_TTB")) {
+            x = 0,
+                y = -100
+        } else {
+            x = 100,
+                y = 0;
+        }
+
+        gsap.fromTo(item,
+            { autoAlpha: 0, x: x, y: y },
+            { autoAlpha: 1, x: 0, y: 0, delay: delay, duration: 4, overwrite: "auto", ease: "expo" }
+        );
+
+
+        gsap.utils.toArray(".Calendar_img").forEach(item => {
+            hide(item);
+
+            ScrollTrigger.create({
+                trigger: item,
+                start: "top bottom",
+                end: "bottom top",
+                markers: false,
+                onEnter: () => { animate(item) }
+            });
+        });
+            </script>
+                <script>
+        if (item.classList.contains(".inner_language")) {
+            x = -100,
+                y = 0
+        } else if (item.classList.contains("reveal_BTT")) {
+            x = 0,
+                y = 100
+        } else if (item.classList.contains("reveal_TTB")) {
+            x = 0,
+                y = -100
+        } else {
+            x = 100,
+                y = 0;
+        }
+
+        gsap.fromTo(item,
+            { autoAlpha: 0, x: x, y: y },
+            { autoAlpha: 1, x: 0, y: 0, delay: delay, duration: 4, overwrite: "auto", ease: "expo" }
+        );
+
+
+        gsap.utils.toArray(".inner_language").forEach(item => {
+            hide(item);
+
+            ScrollTrigger.create({
+                trigger: item,
+                start: "top bottom",
+                end: "bottom top",
+                markers: false,
+                onEnter: () => { animate(item) }
+            });
+        });
+    </script>
+
+
+
+<!-- 타이핑 -->
+<script src="https://unpkg.com/typeit@8.0.2/dist/index.umd.js"></script>
+  <script>
+    new TypeIt(".typing-text", {
+
+      strings: ["재미있고 유익한 공부 설계를 쉽고 간편하게!"],
+
+      speed: 90,
+
+      loop: true, // 반복함
+
+    }).go();
+  </script>
+  <script>
+
+    new TypeIt(".typing-text1", {
+
+      strings: ["공부 준비가 한결 가벼워집니다."],
+
+      speed: 130,
+
+      loop: true, // 반복함
+    }).go();
+
+  </script>
+  <script>
+
+    new TypeIt(".typing-text2", {
+
+      strings: ["클라우드의 맞춤형"],
+
+      speed: 120,
+
+      loop: true, // 반복함
+    }).go();
+  </script>
+  <script>
+
+    new TypeIt(".typing-text3", {
+
+      strings: ["공부플랫폼"],
+
+      speed: 200,
+
+      loop: true, // 반복함
+
+
+    }).go();
+  </script>
+  <script>
+
+    new TypeIt(".typing-text4", {
+
+      strings: ["AI디지털 학습지와"],
+
+      speed: 120,
+
+      loop: true, // 반복함
+
+      breakLines: false // 줄바꿈 허용 곧, 한줄씩 보이고 사라지고를 반복함
+
+    }).go();
+  </script>
+  <script>
+
+    new TypeIt(".typing-text5", {
+
+      strings: ["함께합니다"],
+
+      speed: 220,
+
+      loop: true, // 반복함
+
+      breakLines: false // 줄바꿈 허용 곧, 한줄씩 보이고 사라지고를 반복함
+    }).go();
+    
+  </script>
+
+<!-- 타이핑 -->
+
+
+
 </body>
 
 </html>
