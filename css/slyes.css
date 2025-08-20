@@ -819,7 +819,7 @@ h3 {
 /* button must */
 .section {
     width: 100%;
-    height: 800px;
+    height: 400px;
     float: right;
     position: relative;
     box-sizing: border-box;
@@ -837,10 +837,6 @@ h3 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 55px;
-}
-
-.e-book {
-    margin-top: 130px;
 }
 
 .link ul li {
@@ -876,7 +872,8 @@ h3 {
 .img1,
 .img2,
 .img3,
-.img4 {
+.img4
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -885,23 +882,42 @@ h3 {
     background-size: cover;
 }
 
+.image1,
+.image2{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+
 .img1 img,
 .img2 img,
 .img3 img,
-.img4 img {
+.img4 img,
+.image1 img,
+.image2 img
+{
     margin: 10px 20px 130px 0px;
 }
 
 .img2,
 .img3,
-.img4 {
+.img4,
+.image2 {
     display: none;
 }
+
+
 
 /* button must */
 
 
 /* text position */
+
+/* 5월 */
 .img_text1 {
     display: block;
     font-size: 20px;
@@ -942,46 +958,36 @@ h3 {
     right: 135px;
 }
 
-.img_text6 {
-    display: block;
-    font-size: 20px;
-    position: absolute;
-    top: 700px;
-    left: 65px;
-}
 
-.img_text7 {
+/* 6월*/
+.img1_text1 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 700px;
+top: 290px;
+    left:65px;
+}
+.img1_text2 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
     left: 220px;
 }
-
-.img_text8 {
+.img1_text3 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 700px;
-    right: 495px;
+    top: 290px;
+    right: 490px;
 }
-
-.img_text9 {
+.img1_text4 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 700px;
+    top: 290px;
     right: 270px;
 }
-
-.img_text10 {
-    display: block;
-    font-size: 20px;
-    position: absolute;
-    top: 700px;
-    right: 135px;
-}
-
 .img1_text5 {
     display: block;
     font-size: 20px;
@@ -990,45 +996,158 @@ h3 {
     right: 135px;
 }
 
-.img1_text6 {
+
+/* 7월*/
+.img2_text1 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+top: 290px;
+    left:40px;
+}
+.img2_text2 {
     display: block;
     font-size: 20px;
     position: absolute;
     top: 290px;
-    left: 65px;
+    left: 250px;
 }
-
-.img1_text7 {
+.img2_text3 {
     display: block;
     font-size: 20px;
     position: absolute;
     top: 290px;
-    left: 220px;
+    right: 540px;
 }
-
-.img1_text8 {
+.img2_text4 {
     display: block;
     font-size: 20px;
     position: absolute;
     top: 290px;
-    right: 495px;
+    right: 280px;
 }
-
-.img1_text9 {
+.img2_text5 {
     display: block;
     font-size: 20px;
     position: absolute;
     top: 290px;
-    right: 270px;
+    right: 65px;
 }
 
-.img1_text10 {
+/* 8월 */
+.img3_text1 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+top: 290px;
+    left:65px;
+}
+.img3_text2 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
+    left: 230px;
+}
+.img3_text3 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
+    right: 540px;
+}
+.img3_text4 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
+    right: 290px;
+}
+.img3_text5 {
     display: block;
     font-size: 20px;
     position: absolute;
     top: 290px;
     right: 135px;
 }
+
+
+/* 9월 */
+.img4_text1 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}
+.img4_text2 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 235px;
+}
+.img4_text3 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 445px;
+}
+.img4_text4 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right:325px;
+}
+.img4_text5 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 120px;
+}
+
+
+/* 10월 */
+.img5_text1 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+}
+.img5_text2 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+.img5_text3 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 490px;
+}
+.img5_text4 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 280px;
+}
+.img5_text5 {
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 75px;
+}
+
+
 
 /* text position */
 /* Popular_books */
