@@ -101,16 +101,24 @@ body {
 
 /* header */
 #header {
-    background-color: #111111;
+        background-color: #111111;
+                position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
 }
 
 .inner_header {
+
     width: 1320px;
     margin: 0 auto;
     color: white;
     display: flex;
     padding: 10px 0;
     justify-content: space-between;
+
+
 }
 
 .gnb {
@@ -131,9 +139,11 @@ body {
 .main_banner {
     position: relative;
     height: 430px;
+
 }
 
 /* swiper */
+
 .main_banner.swiper {
     width: 100%;
     height: 100%;
@@ -149,7 +159,26 @@ body {
     align-items: center;
 }
 
-.main_banner.swiper-slide img {
+
+
+.swiper_sawp{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    background: url(../figma_img/2_main/main_slide_1/main_slide_bg.jpg) no-repeat bottom;
+padding-top: 100px;
+}
+
+.swiper_img{
+    display: flex;
+}
+
+.swiper_img span{
+    flex-wrap: wrap;
+    display: block;
+
+}
+.main_banner .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
@@ -219,6 +248,12 @@ body {
     align-items: center;
 }
 
+.swiper-slide img{
+    align-items: center;
+
+}
+
+
 .main_banner1 .swiper-slide img {
     display: block;
     width: 100%;
@@ -264,6 +299,10 @@ body {
 
 .main_banner1 .swiper-button {
     width: 100px;
+}
+
+:root {
+    --swiper-theme-color: #333;
 }
 
 /* swiper */
@@ -389,14 +428,16 @@ h2 {
 }
 
 #delay h2 {
-    padding: 80px 0 20px;
+    padding: 110px 0 0px;
 }
+
+
 
 .delay_text {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 14px;
+    padding: 20px 0 15px;
 }
 
 .delay_vid {
@@ -476,7 +517,7 @@ h2 {
     display: flex;
     width: 1320px;
     margin: 0 auto;
-    padding-top: 40px;
+    padding: 15px 0 30px;
     justify-content: space-between;
 
 
@@ -570,14 +611,14 @@ h3 {
 /* Cloud */
 #Cloud {
     display: block;
-    margin: 25px 0;
-    height: 950px;
+    margin: 150px 0 0px;
+    height: 920px;
     box-sizing: border-box;
     background: linear-gradient(to top, #F6D0FF, #D9B9FF);
 }
 
 #Cloud h2 {
-    padding: 60px 0 30px;
+    padding: 80px 0 20px;
 }
 
 .Cloud_text {
@@ -698,26 +739,6 @@ h3 {
     padding: 30px 0;
 }
 
-
-/* 두번째 줄 애니메이션 */
-.typing-container:nth-child(2) {
-    animation-delay: 3s;
-    /* 첫 번째 줄 애니메이션이 끝난 후 시작 */
-    animation-timing-function: linear;
-}
-
-/* 타이핑 애니메이션 */
-@keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-
 .Cloud_data {
     display: flex;
     justify-content: center;
@@ -729,16 +750,16 @@ h3 {
 .Cloud_data_wrap1 {
     display: flex;
     position: absolute;
-    top: 60px;
-    left: 110px;
+    top: 0px;
+    left: 0px;
 
 }
 
 .Cloud_data_wrap2 {
     display: flex;
     position: absolute;
-    top: 60px;
-    right: 115px;
+    top: 0px;
+    right: 0px;
 }
 
 .Cloud_data p {
@@ -751,34 +772,34 @@ h3 {
 /* 애니메이션 */
 @keyframes motion {
     0% {
-        top: 100px;
+        top: 80px;
         left: 110px;
     }
 
     50% {
-        top: 100px;
+        top: 80px;
         left: 390px;
     }
 
     100% {
-        top: 100px;
+        top: 80px;
         left: 110px;
     }
 }
 
 @keyframes motion1 {
     0% {
-        top: 100px;
+        top: 80px;
         right: 110px;
     }
 
     50% {
-        top: 100px;
+        top: 80px;
         right: 375px;
     }
 
     100% {
-        top: 100px;
+        top: 80px;
         right: 110px;
     }
 }
@@ -800,19 +821,18 @@ h3 {
 /* Popular_books */
 #Popular_books {
     width: 1320px;
-    margin: 0 auto;
-    height: 900px;
-
+    margin: 20px auto;
+    height: 950px;
 }
 
 #Popular_books h2 {
     display: block;
     text-align: center;
-    padding:80px 0 60px;
+    padding:80px 0 40px;
 }
 
 .Popular_books_wrap {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -1077,35 +1097,35 @@ top: 290px;
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     left: 40px;
 }
 .img4_text2 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     left: 235px;
 }
 .img4_text3 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     left: 445px;
 }
 .img4_text4 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     right:325px;
 }
 .img4_text5 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     right: 120px;
 }
 
@@ -1115,35 +1135,35 @@ top: 290px;
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     left: 40px;
 }
 .img5_text2 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     left: 250px;
 }
 .img5_text3 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     right: 490px;
 }
 .img5_text4 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     right: 280px;
 }
 .img5_text5 {
     display: block;
     font-size: 20px;
     position: absolute;
-    top: 300px;
+    top: 290px;
     right: 75px;
 }
 
@@ -1157,17 +1177,17 @@ top: 290px;
 /* Custom_videos */
 #Custom_videos {
     width: 1320px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #Custom_videos h2 {
-    padding:80px 0 60px;
+    padding:80px 0 50px;
 }
 
 .inner_Custom_videos {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .inner_Custom_videos strong {
@@ -1251,6 +1271,7 @@ top: 290px;
 .Calendar_img {
     display: block;
     box-sizing: border-box;
+    padding-top: 80px;
 
 }
 
@@ -1260,10 +1281,9 @@ top: 290px;
 /* footer */
 #footer {
     background-color: #6567BE;
-    height: 200px;
-    margin-top: 120px;
+    margin-top: 30px;
     color: white;
-    padding-top: 40px;
+    padding: 25px 0;
     box-sizing: border-box;
 
 }
