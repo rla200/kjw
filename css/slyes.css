@@ -136,9 +136,18 @@ body {
 
 
 /* main_banner */
+
+.main_banner_wrap{
+    display: flex;
+    justify-content: center;
+}
+
+
 .main_banner {
     position: relative;
     height: 430px;
+    width: 1920px;
+
 
 }
 
